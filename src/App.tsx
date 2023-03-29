@@ -19,7 +19,7 @@ function App() {
 
   return (
     <div className="App">
-      <header className="">
+      <header className="flex justify-center mt-10 space-x-8">
         <button onClick={() => setId(0)} className="">
           About
         </button>

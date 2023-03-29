@@ -4,7 +4,7 @@ function Works() {
 
   return (
     <div className="Works">
-      <p>うおおおお</p>
+      <p>準備中...</p>
     </div>
   );
 }
