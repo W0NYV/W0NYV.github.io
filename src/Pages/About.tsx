@@ -1,4 +1,5 @@
 import React from 'react';
+import OneWord from './OneWord';
 
 function About() {
 
@@ -12,7 +13,7 @@ function About() {
           <div>
             <p className="text-2xl">W0NYV（読み：をにゅ）</p>
             <p>興味：リアルタイムCG, VJ, XR LIVE</p>
-            <p>美味しいものが好きですﾆｭ🦀🦀🦀</p>
+            <OneWord />
           </div>
 
           <div className="block flex space-x-4">
