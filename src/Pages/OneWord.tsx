@@ -2,10 +2,10 @@ import React from 'react';
 
 function OneWord() {
 
-  const wordArr = ["美味しいものが好きです🦀🦀🦀"];
+  const wordArr: string[] = ["美味しいものが好きです🦀🦀🦀", "こんにちは", "にゃーお"];
 
   const getWordRandom = () => {
-    return wordArr[0];
+    return wordArr[Math.floor(Math.random() * wordArr.length)];
   };
 
   return (

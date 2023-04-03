@@ -12,6 +12,7 @@ function About() {
         <div className="mt-20 flex flex-col space-y-10">
           <div>
             <p className="text-2xl">W0NYV（読み：をにゅ）</p>
+            <p>情報工学系の大学に通っています .</p>
             <p>興味：リアルタイムCG, VJ, XR LIVE</p>
             <OneWord />
           </div>
