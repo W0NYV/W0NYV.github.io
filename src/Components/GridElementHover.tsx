@@ -8,4 +8,4 @@ export const GridElementHover: React.FC<GridElementHoverProps> = (props) => {
       {props.children}
     </div>
   );
-}
+};
