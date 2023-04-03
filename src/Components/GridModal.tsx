@@ -1,20 +1,16 @@
 type ModalBodyProps = {
-  showModal: boolean,
-  setShowModal: Function,
-  worksId: number,
+  children: React.ReactNode;
+  isModalShowing: boolean;
+  setIsModalShowing: Function;
 };
 
 const GridModal: React.FC<ModalBodyProps> = (props) => {
 
-  if(props.showModal) {
+  if(props.isModalShowing) {
     return (
-      <div className="absolute inset-0 w-full" onClick={() => props.setShowModal(false)}>
+      <div className="absolute inset-0 w-full" onClick={() => props.setIsModalShowing(false)}>
         <div className="m-auto mt-28 w-10/12 h-5/6 bg-slate-400">
-          <p>{props.worksId}</p>
-          <p>タイトル</p>
-          <p>動画か画像</p>
-          <p>説明</p>
-          <p>リンクとか</p>
+          {props.children}
         </div>
       </div>
     );

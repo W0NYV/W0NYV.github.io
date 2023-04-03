@@ -1,15 +1,35 @@
 import { useState } from "react";
-import { GridElementHover } from '../Components/GridElementHover';
+import GridElement from "../Components/GridElement";
 import GridModal from '../Components/GridModal';
+import WorksInfoArr from '../Data/WorksInfo';
 
 function Works() {
 
-  const [showModal, setShowModal] = useState<boolean>(false);
+  const [isModalShowing, setIsModalShowing] = useState<boolean>(false);
   const [worksId, setWorksId] = useState<number>(0);
 
-  const setModal = (id: number) => {
-    setShowModal(true);
+  //任意のidのworksのモーダルウィンドウを表示するぞ！
+  const showModal = (id: number) => {
+    setIsModalShowing(true);
     setWorksId(id);
+  };
+
+  //WorksInfo配列から任意のidの要素をゲトってくる
+  const worksComponent = (id: number) => {
+    return WorksInfoArr[id].modalElement;
+  };
+
+  //WorksInfo配列分だけgrid要素作る
+  const gridElements = () => {
+
+    let components: React.ReactNode[] = [];
+
+    for(let i = 0; i < WorksInfoArr.length; i++) {
+      components.push(<GridElement id={i} showModal={showModal} />);
+    }
+
+    return components;
+
   };
 
   return (
@@ -17,18 +37,13 @@ function Works() {
 
       <div className="flex justify-center mt-10">
         <div className="grid grid-cols-4 grid-flow-row gap-2">
-
-          <div className="w-80 h-80 relative" onClick={() => setModal(0)}>
-            <img src=".\w0nyv.jpg" alt="W0NYV-icon" />
-            <GridElementHover>
-              <p className="text-white sticky top-1/2 left-1/2 text-center">グラフィックスプログラミング</p>
-            </GridElementHover>
-          </div>
-
+          {gridElements()}
         </div>
       </div>
 
-      <GridModal showModal={showModal} setShowModal={setShowModal} worksId={worksId} />
+      <GridModal isModalShowing={isModalShowing} setIsModalShowing={setIsModalShowing}>
+        {worksComponent(worksId)}  
+      </GridModal>      
 
     </div>
 
