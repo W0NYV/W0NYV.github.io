@@ -10,7 +10,7 @@ function OneWord() {
 
   return (
     <div className="OneWord">
-      <p>{getWordRandom()}</p>
+      <p className="text-white">{getWordRandom()}</p>
     </div>
   );
 }

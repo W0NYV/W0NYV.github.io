@@ -20,10 +20,10 @@ const Header: React.FC = () => {
   return (
     <div>
       <header className="flex justify-center mt-10 space-x-8">
-        <button onClick={() => setId(0)} className="">
+        <button onClick={() => setId(0)} className="text-white">
           About
         </button>
-        <button onClick={() => setId(1)} className="">
+        <button onClick={() => setId(1)} className="text-white">
           Works
         </button>
       </header>
