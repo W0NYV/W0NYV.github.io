@@ -1,4 +1,3 @@
-import React from 'react';
 import OneWord from './OneWord';
 
 function About() {
