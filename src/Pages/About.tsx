@@ -1,4 +1,4 @@
-import React from 'react';
+import OneWord from './OneWord';
 
 function About() {
 
@@ -10,9 +10,10 @@ function About() {
 
         <div className="mt-20 flex flex-col space-y-10">
           <div>
-            <p className="text-2xl">W0NYV（読み：をにゅ）</p>
-            <p>興味：リアルタイムCG, VJ, XR LIVE</p>
-            <p>美味しいものが好きです🦀🦀🦀</p>
+            <p className="text-2xl text-white">W0NYV（読み：をにゅ）</p>
+            <p className="text-white">情報工学系の大学に通っています .</p>
+            <p className="text-white">興味：リアルタイムCG, VJ, XR LIVE</p>
+            <OneWord />
           </div>
 
           <div className="block flex space-x-4">
