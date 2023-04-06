@@ -7,8 +7,8 @@ type WorksInfo = {
 
 const WorksInfoArr: WorksInfo[] = [
 
-  {title: "aaa", modalElement: <p>nyannyan</p>},
-  {title: "bbb", modalElement: <p>wowow</p>}
+  {title: "準備中", modalElement: <p>準備中</p>},
+  {title: "準備中２", modalElement: <p>準備中２</p>}
 
 ];
 
