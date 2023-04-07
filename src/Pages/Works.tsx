@@ -35,8 +35,8 @@ function Works() {
   return (
     <div className="Works">
 
-      <div className="flex justify-center mt-10">
-        <div className="grid grid-cols-4 grid-flow-row gap-2">
+      <div className="flex justify-center mt-10 overflow-auto" style={{height: '70vh'}}>
+        <div className="grid lg:grid-cols-4 grid-flow-row gap-4 lg:gap-2">
           {gridElements()}
         </div>
       </div>
