@@ -66,7 +66,7 @@ const ShaderArt: React.FC = () => {
 
     d = step(0.75, d);
 
-    vec3 color = vec3(d*rand(i*40.0));
+    vec3 color = vec3(d*(rand(i*40.0)*0.3+0.2));
     gl_FragColor = vec4(color, 1.0);
   }
   `;
@@ -103,7 +103,7 @@ const ShaderArt: React.FC = () => {
 
   return (
     <mesh>
-      <planeBufferGeometry args={[2, 2]} />
+      <planeGeometry args={[2, 2]} />
       <shaderMaterial attach="material" {...mat} />
     </mesh>
   );
