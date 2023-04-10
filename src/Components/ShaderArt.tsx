@@ -103,7 +103,7 @@ const ShaderArt: React.FC = () => {
 
   return (
     <mesh>
-      <planeBufferGeometry args={[2, 2]} />
+      <planeGeometry args={[2, 2]} />
       <shaderMaterial attach="material" {...mat} />
     </mesh>
   );
