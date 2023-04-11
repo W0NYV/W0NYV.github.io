@@ -12,7 +12,7 @@ type WorksInfo = {
 const WorksInfoArr: WorksInfo[] = [
 
   {title: "5H1V3R1N6", 
-  img: "https://img.youtube.com/vi/UdCPXLAD9NY/maxresdefault.jpg",
+  img: "./shiba.png",
   modalElement: 
   <div>
     <ModalTitle>5H1V3R1N6</ModalTitle>
@@ -30,7 +30,7 @@ const WorksInfoArr: WorksInfo[] = [
   </div>},
 
   {title: "Opening", 
-  img: "http://img.youtube.com/vi/ZJhnxB1w1IE/hqdefault.jpg",
+  img: "./opening.png",
   modalElement: 
   <div>
     <ModalTitle>Opening</ModalTitle>

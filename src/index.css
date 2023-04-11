@@ -2,6 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+body {
+  /* background-image:url("../public/w0nyv.jpg"); */
+  /* background-size: 125px; */
+  background-color:rgba(30,30,30,1.0);
+  /* background-blend-mode:lighten; */
+}
 /* body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
