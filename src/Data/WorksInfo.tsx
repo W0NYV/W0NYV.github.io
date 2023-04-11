@@ -12,7 +12,7 @@ type WorksInfo = {
 const WorksInfoArr: WorksInfo[] = [
 
   {title: "5H1V3R1N6", 
-  img: "https://img.youtube.com/vi/UdCPXLAD9NY/maxresdefault.jpg",
+  img: "./shiba.png",
   modalElement: 
   <div>
     <ModalTitle>5H1V3R1N6</ModalTitle>
@@ -27,10 +27,11 @@ const WorksInfoArr: WorksInfo[] = [
           {title: "draw(); #2にてVJを行った", url: "https://w0nyv.hatenablog.com/entry/2023/02/01/143136"},
         ]} />
     </div>
+    <br /><br />
   </div>},
 
   {title: "Opening", 
-  img: "http://img.youtube.com/vi/ZJhnxB1w1IE/hqdefault.jpg",
+  img: "./opening.png",
   modalElement: 
   <div>
     <ModalTitle>Opening</ModalTitle>
@@ -41,6 +42,26 @@ const WorksInfoArr: WorksInfo[] = [
       <p className="text-white">開発期間: 17日間</p>
       <p className="text-white">開発時期: 大学3年</p>
     </div>
+    <br /><br />
+  </div>},
+
+  {title: "Re:NKON", 
+  img: "./renkon.png",
+  modalElement: 
+  <div>
+    <ModalTitle>Re:NKON</ModalTitle>
+    <img className="m-auto" src="./renkon.gif" alt="Re:NKON" />
+    {/* <YouTubeEmbed id="ZJhnxB1w1IE" /> */}
+    <div className="mx-8">
+      <p className="mt-3 text-white">　unityroom主催のUnity1週間ゲームジャムに投稿した作品。銃に見立てたレンコンを交互に打ち合い、スコア稼いでいくマルチプレイオンラインゲーム。4人のメンバーで制作を行い、私は主にネットワーク周りとゲームロジックを担当した。特にユーザのあらゆる行動(ゲーム中に切断するなど)が起きてもゲームに不具合がないようにハンドリングをしたことに気合いを入れた。また、ゲームのプレイ人数が足りないときの解決策としてCPUの実装を行った。</p>
+      <p className="mt-3 text-white">開発ツール: Unity (C#, Monobit Unity Networking 2.0)</p>
+      <p className="text-white">開発期間: 一週間</p>
+      <p className="text-white">開発時期: 大学3年</p>
+      <ModalLinks links={[
+          {title: "【オンライン】Re:NKON(PCのみプレイ可)", url: "https://unityroom.com/games/renkon"},
+        ]} />
+    </div>
+    <br /><br />
   </div>}
 ];
 
