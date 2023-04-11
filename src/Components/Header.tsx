@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import About from '../Pages/About';
 import Works from '../Pages/Works';
+import Sketches from '../Pages/Sketches';
 
 const Header: React.FC = () => {
 
@@ -13,6 +14,9 @@ const Header: React.FC = () => {
         break;
       case 1:
         return <Works />;
+        break;
+      case 2:
+        return <Sketches />;
         break;
     }
   }
@@ -33,6 +37,9 @@ const Header: React.FC = () => {
         </button>
         <button onClick={() => setId(1)} className={setBorder(1)}>
           Works
+        </button>
+        <button onClick={() => setId(2)} className={setBorder(2)}>
+          Sketches
         </button>
       </header>
       {switchContent(id)}
