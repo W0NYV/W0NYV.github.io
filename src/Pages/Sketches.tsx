@@ -23,7 +23,7 @@ function Sketches() {
     let components: React.ReactNode[] = [];
 
     for(let i = 0; i < SketchesInfoArr.length; i++) {
-      components.push(<GridElement id={i} showModal={showModal} />);
+      components.push(<GridElement id={i} showModal={showModal} pageId={1} />);
     }
 
     return components;
@@ -32,9 +32,8 @@ function Sketches() {
 
   return (
     <div className="Sketches">
-
-      <div className="flex justify-center mt-10 overflow-auto h-80v">
-        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 grid-flow-row gap-8 lg:gap-2">
+      <div className="mt-10 overflow-auto h-80v">
+        <div className="max-w-7xl mx-auto grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 justify-items-center gap-2 lg:gap-20">
           {gridElements()}
         </div>
       </div>

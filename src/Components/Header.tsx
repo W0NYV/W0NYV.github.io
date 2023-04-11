@@ -23,15 +23,15 @@ const Header: React.FC = () => {
 
   const setBorder = (myId: number) => {
     if(myId == id) {
-      return "text-white border-b-2";
+      return "flex-row basis-1/4 lg:basis-1/12 text-center text-black bg-white bg-opacity-60";
     } else {
-      return "text-white";
+      return "flex-row basis-1/4 lg:basis-1/12 text-center text-white";
     }
   };
 
   return (
     <div>
-      <header className="flex justify-center mt-10 space-x-8">
+      <header className="flex justify-center mt-10 gap-8">
         <button onClick={() => setId(0)} className={setBorder(0)}>
           About
         </button>
