@@ -9,6 +9,11 @@ module.exports = {
         "70v": "70vh",
         "80v": "80vh"
       },
+      width: {
+        "70v": "70vh",
+        "80v": "80vh",
+        "90v": "90vh"
+      },
     },
   },
   plugins: [],

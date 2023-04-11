@@ -20,7 +20,7 @@ const WorksInfoArr: WorksInfo[] = [
     <img className="m-auto w-5/6" src="./images/draw-3.webp" alt="draw();-3" />
     <img className="m-auto w-5/6" src="./images/draw-_2-3.webp" alt="draw();-_2-3" />
     <div className="mx-8">
-      <p className="mt-3 text-white">　主催を行っているオーディオとビジュアルのパフォーマンスのライブイベント。ビジュアルにフォーカスしたオンラインのイベントが現状ほぼなく、自分たちでやってみようとなり、始まった企画。主に主催の仕事として、ブッキング、運営メンバーの仕事割り振り、公式サイト制作、ゲスト出演者の方がVRChatでライブを行うためのサポートを行っている。これまでに、VRChatとTwitchにて配信を行い、前回のイベントでは、同時視聴者数は約80人ほどであった。</p>
+      <p className="mt-3 text-white">　主催を行っているオーディオとビジュアルのパフォーマンスのライブイベント。</p>
       <ModalLinks links={[
           {title: "公式サイト", url: "https://sites.google.com/view/function-draw/home"},
           {title: "#function_draw", url: "https://twitter.com/search?q=%23function_draw&src=typed_query"},
@@ -79,7 +79,14 @@ const WorksInfoArr: WorksInfo[] = [
         ]} />
     </div>
     <br /><br />
-  </div>}
+  </div>},
+
+  // {title: "Dummy", 
+  // img: "./w0nyv.jpg",
+  // modalElement: 
+  // <div>
+  // </div>},
+
 ];
 
 export default WorksInfoArr;
