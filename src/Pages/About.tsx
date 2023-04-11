@@ -31,8 +31,8 @@ function About() {
         </div>
       </div>
 
-      <p className="m-auto text-white text-center mt-10">- Contact -</p>
-      <p className="m-auto text-white text-center">お気軽にTwitterでDMしてください！</p>
+      {/* <p className="m-auto text-white text-center mt-10">- Contact -</p>
+      <p className="m-auto text-white text-center">お気軽にTwitterでDMしてください！</p> */}
 
     </div>
   );
