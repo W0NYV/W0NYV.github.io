@@ -87,6 +87,23 @@ const SketchesInfoArr: WorksInfo[] = [
     </div>
     <br /><br />
   </div>},
+
+  {title: "tanabata", 
+  img: "./images/tanabata.webp",
+  modalElement: 
+  <div>
+    <ModalTitle>tanabata</ModalTitle>
+    <img className="m-auto w-5/6" src="./images/tanabata.webp" alt="tanabata" />
+    <div className="mx-8">
+      <p className="mt-3 text-white">短冊に願いを書いて笹に付けるWebページ</p>
+      <p className="mt-3 text-white">Tool: p5js, GAS</p>
+      <p className="mt-3 text-white">2020</p>
+      <ModalLinks links={[
+          {title: "tanabata", url: "https://w0nyv.github.io/tanabata/"},
+        ]} />
+    </div>
+    <br /><br />
+  </div>},
 ];
 
 export default SketchesInfoArr;
