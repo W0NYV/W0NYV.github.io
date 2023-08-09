@@ -10,7 +10,7 @@ function About() {
 
         <div className="m-auto mt-3 lg:m-0 lg:mt-12">
           <p className="text-2xl text-white">W0NYV（読み：をにゅ）</p>
-          <p className="mt-3 text-white">情報工学系の大学に通っています .</p>
+          <p className="mt-3 text-white">情報工学系の大学に通っています。</p>
           <p className="text-white">興味：リアルタイムCG, VJ, XR LIVE</p>
           <OneWord />
 

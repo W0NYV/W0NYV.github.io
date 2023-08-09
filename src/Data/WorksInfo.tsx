@@ -42,8 +42,27 @@ const WorksInfoArr: WorksInfo[] = [
     <div className="mx-8">
       <p className="mt-3 text-white">　主催を行っているオーディオとビジュアルのパフォーマンスのライブイベント。</p>
       <ModalLinks links={[
-          {title: "公式サイト", url: "https://sites.google.com/view/function-draw/home"},
+          {title: "公式サイト", url: "https://function-draw.com/"},
+          {title: "公式Twitter", url: "https://twitter.com/function_draw"},
           {title: "#function_draw", url: "https://twitter.com/search?q=%23function_draw&src=typed_query"},
+        ]} />
+    </div>
+    <br /><br />
+  </div>},
+
+  {title: "Aurora", 
+  img: "./images/draw3/draw3-2.webp",
+  modalElement: 
+  <div>
+    <ModalTitle>Aurora</ModalTitle>
+    <img className="m-auto w-5/6" src="./images/draw3/draw3-1.webp" alt="draw(); #3-1" /><br />
+    <img className="m-auto w-5/6" src="./images/draw3/draw3-2.webp" alt="draw(); #3-2" /><br />
+    <img className="m-auto w-5/6" src="./images/draw3/draw3-3.webp" alt="draw(); #3-3" /><br />
+    <img className="m-auto w-5/6" src="./images/draw3/draw3-4.webp" alt="draw(); #3-4" />
+    <div className="mx-8">
+      <p className="mt-3 text-white">　<a href="https://twitter.com/SainaKey" className="text-teal-300 hover:text-teal-600">@SainaKey</a>と共同開発を行ったVJツール。遠隔で操作することもでき、draw(); #3当日はオンラインB2Bを行った。</p>
+      <ModalLinks links={[
+          {title: "draw(); #3", url: "https://twitter.com/SainaKey/status/1679078181775757312?s=20"},
         ]} />
     </div>
     <br /><br />
