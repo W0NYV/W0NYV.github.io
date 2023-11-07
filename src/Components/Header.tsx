@@ -43,7 +43,7 @@ const Header: React.FC = () => {
           Works
         </button>
         <button onClick={() => setId(2)} className={setBorder(2)}>
-          Sketches
+          Experimental
         </button>
         <button onClick={() => setId(3)} className={setBorder(3)}>
           Contact

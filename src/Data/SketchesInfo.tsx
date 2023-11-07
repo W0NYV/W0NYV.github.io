@@ -11,6 +11,25 @@ type WorksInfo = {
 
 const SketchesInfoArr: WorksInfo[] = [
 
+  {title: "SyntheticSense vol.1", 
+  img: "./images/syntheticsense-vol1/SyntheticSense001.webp",
+  modalElement: 
+  <div>
+    <ModalTitle>SyntheticSense vol.1</ModalTitle>
+    <img className="m-auto w-5/6" src="./images/syntheticsense-vol1/SyntheticSense001.webp" alt="" />
+    <img className="m-auto w-5/6" src="./images/syntheticsense-vol1/SyntheticSense002.webp" alt="" />
+    <img className="m-auto w-5/6" src="./images/syntheticsense-vol1/SyntheticSense003.webp" alt="" />
+    <div className="mx-8">
+      <p className="mt-3 text-white">九州に旅行に行ったので、VJに使った。</p>
+      <p className="mt-3 text-white">Tool: TouchDesigner, Blender</p>
+      <p className="mt-3 text-white">2023</p>
+      <ModalLinks links={[
+          {title: "SyntheticSense vol.1", url: "https://sugared-pigment-d10.notion.site/SyntheticSense-vol-1-ddbd606af4184e3f8fd96d1f943c7d9e"},
+        ]} />
+    </div>
+    <br /><br />
+  </div>},
+
   {title: "w0nyv VJ Footage AKA", 
   img: "./images/vjpackaka.webp",
   modalElement: 

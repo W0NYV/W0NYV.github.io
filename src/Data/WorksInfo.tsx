@@ -21,7 +21,7 @@ const WorksInfoArr: WorksInfo[] = [
     <img className="m-auto w-5/6" src="./images/15sj-1st/hms.webp" alt="15sj-1st-4" /><br />
     <img className="m-auto w-5/6" src="./images/15sj-1st/htr.webp" alt="15sj-1st-5" />
     <div className="mx-8">
-      <p className="mt-3 text-white">　BRDGプロデュースの元、「アッシュ」、「逃避行」、「ハンドメイド流星雨」、「春とレム」の演出全般を担当した。</p>
+      <p className="mt-3 text-white">　BRDGプロデュースの下、「アッシュ」、「逃避行」、「ハンドメイド流星雨」、「春とレム」の演出全般を担当した。</p>
       <ModalLinks links={[
           {title: "十五少女 OFFICIAL SITE", url: "https://15sj.xyz/"},
           {title: "十五少女 1st ONLINE LIVE「SILENTHATED」", url: "https://www.zan-live.com/live/detail/10280"},
