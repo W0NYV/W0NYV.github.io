@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import About from '../Pages/About';
 import Works from '../Pages/Works';
 import Sketches from '../Pages/Sketches';
+import Contact from '../Pages/Contact';
 
 const Header: React.FC = () => {
 
@@ -18,20 +19,23 @@ const Header: React.FC = () => {
       case 2:
         return <Sketches />;
         break;
+      case 3:
+        return <Contact />;
+        break;
     }
   }
 
   const setBorder = (myId: number) => {
     if(myId == id) {
-      return "flex-row basis-1/4 lg:basis-1/12 text-center text-black bg-white bg-opacity-60";
+      return "flex-row basis-1/5 lg:basis-1/12 text-center text-black bg-white bg-opacity-60";
     } else {
-      return "flex-row basis-1/4 lg:basis-1/12 text-center text-white";
+      return "flex-row basis-1/5 lg:basis-1/12 text-center text-white";
     }
   };
 
   return (
     <div>
-      <header className="flex justify-center mt-10 gap-8">
+      <header className="flex justify-center mt-10 gap-4">
         <button onClick={() => setId(0)} className={setBorder(0)}>
           About
         </button>
@@ -39,7 +43,10 @@ const Header: React.FC = () => {
           Works
         </button>
         <button onClick={() => setId(2)} className={setBorder(2)}>
-          Sketches
+          Experimental
+        </button>
+        <button onClick={() => setId(3)} className={setBorder(3)}>
+          Contact
         </button>
       </header>
       {switchContent(id)}
