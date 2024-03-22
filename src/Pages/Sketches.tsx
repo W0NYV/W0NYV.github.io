@@ -8,7 +8,6 @@ function Sketches() {
   const [isModalShowing, setIsModalShowing] = useState<boolean>(false);
   const [sketchesId, setsketchesId] = useState<number>(0);
 
-  //任意のidのworksのモーダルウィンドウを表示するぞ！
   const showModal = (id: number) => {
     setIsModalShowing(true);
     setsketchesId(id);

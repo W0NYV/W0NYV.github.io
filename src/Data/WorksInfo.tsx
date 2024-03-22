@@ -11,6 +11,58 @@ type WorksInfo = {
 
 const WorksInfoArr: WorksInfo[] = [
 
+  {title: "draw();",
+  img: "./draw.png",
+  modalElement: 
+  <div>
+    <ModalTitle>draw();</ModalTitle>
+    <img className="m-auto w-5/6" src="https://pbs.twimg.com/media/GHUozJcbQAAGf2C?format=jpg&name=large" alt="draw();-3" /><br />
+    <img className="m-auto w-5/6" src="./images/draw-_2-3.webp" alt="draw();-_2-3" /><br />
+    <img className="m-auto w-5/6" src="./images/draw-1.webp" alt="draw();-1" /><br />
+    <div className="mx-8">
+      <p className="mt-3 text-white">　主催を行っているオーディオとビジュアルのパフォーマンスのライブイベント。リアルでもバーチャルでも行っている。</p>
+      <ModalLinks links={[
+          {title: "公式サイト", url: "https://function-draw.com/"},
+          {title: "公式Twitter", url: "https://twitter.com/function_draw"},
+          {title: "#function_draw", url: "https://twitter.com/search?q=%23function_draw&src=typed_query"},
+        ]} />
+    </div>
+    <br /><br />
+  </div>},
+
+  {title: "3G0D34TH", 
+  img: "https://gyazo.com/35d88feee2d3084fa4f305892667d019/max_size/1000",
+  modalElement: 
+  <div>
+    <ModalTitle>3G0D34TH</ModalTitle>
+    <img className="m-auto w-5/6" src="https://gyazo.com/8a2f22ff7ea8ed90fdc899d6329bbdee/max_size/1000" alt="3G0D34TH - 1" /><br />
+    <img className="m-auto w-5/6" src="https://gyazo.com/791eadd95b9db0963b81952053ffb11c/max_size/1000" alt="3G0D34TH - 2" /><br />
+    <img className="m-auto w-5/6" src="https://gyazo.com/26c854f8578cfb044cd911fe024f8c3f/max_size/1000" alt="3G0D34TH - 3" /><br />
+    <div className="mx-8">
+      <p className="mt-3 text-white">「draw{'('}tokyo{')'};」で使用、開発したVJ tool</p>
+      <ModalLinks links={[
+          {title: "draw(tokyo);", url: "https://draw-tokyo.peatix.com/"},
+        ]} />
+    </div>
+    <br /><br />
+  </div>},
+
+  {title: "draw(tokyo);", 
+  img: "https://gyazo.com/c9a3322c02134820251809f9a5f8103c/max_size/1000",
+  modalElement: 
+  <div>
+    <ModalTitle>draw(tokyo);</ModalTitle>
+    <img className="m-auto w-5/6" src="https://pbs.twimg.com/media/GHFaQ1_aMAATtLq?format=jpg&name=large" alt="draw(tokyo); - 1" /><br />
+    <img className="m-auto w-5/6" src="https://pbs.twimg.com/media/GHFKtT2aoAA9TM4?format=jpg&name=4096x4096" alt="draw(tokyo); - 2" /><br />
+    <div className="mx-8">
+      <p className="mt-3 text-white">CIRCUS TOKYOにてイベントを主催。</p>
+      <ModalLinks links={[
+          {title: "draw(tokyo);", url: "https://draw-tokyo.peatix.com/"},
+        ]} />
+    </div>
+    <br /><br />
+  </div>},
+
   {title: "十五少女 1st ONLINE LIVE 「SILENTHATED」", 
   img: "./images/15sj-1st/15sj-1st.webp",
   modalElement: 
@@ -31,25 +83,6 @@ const WorksInfoArr: WorksInfo[] = [
     <br /><br />
   </div>},
 
-  {title: "draw();", 
-  img: "./draw.png",
-  modalElement: 
-  <div>
-    <ModalTitle>draw();</ModalTitle>
-    <img className="m-auto w-5/6" src="./images/draw-1.webp" alt="draw();-1" /><br />
-    <img className="m-auto w-5/6" src="./images/draw-3.webp" alt="draw();-3" /><br />
-    <img className="m-auto w-5/6" src="./images/draw-_2-3.webp" alt="draw();-_2-3" />
-    <div className="mx-8">
-      <p className="mt-3 text-white">　主催を行っているオーディオとビジュアルのパフォーマンスのライブイベント。</p>
-      <ModalLinks links={[
-          {title: "公式サイト", url: "https://function-draw.com/"},
-          {title: "公式Twitter", url: "https://twitter.com/function_draw"},
-          {title: "#function_draw", url: "https://twitter.com/search?q=%23function_draw&src=typed_query"},
-        ]} />
-    </div>
-    <br /><br />
-  </div>},
-
   {title: "Aurora", 
   img: "./images/draw3/draw3-2.webp",
   modalElement: 
@@ -63,6 +96,7 @@ const WorksInfoArr: WorksInfo[] = [
       <p className="mt-3 text-white">　<a href="https://twitter.com/SainaKey" className="text-teal-300 hover:text-teal-600">@SainaKey</a>と共同開発を行ったVJツール。遠隔で操作することもでき、draw(); #3当日はオンラインB2Bを行った。</p>
       <ModalLinks links={[
           {title: "draw(); #3", url: "https://twitter.com/SainaKey/status/1679078181775757312?s=20"},
+          {title: "【自作VJソフト】オンラインB2BジェネVJツールを作った話", url: "https://note.com/sainakey5/n/n2e7a402ca535"},
         ]} />
     </div>
     <br /><br />
