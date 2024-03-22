@@ -10,8 +10,8 @@ function About() {
 
         <div className="m-auto mt-3 lg:m-0 lg:mt-12">
           <p className="text-2xl text-white">W0NYV（読み：をにゅ）</p>
-          <p className="mt-3 text-white">情報工学系の大学に通っています。</p>
-          <p className="text-white">興味：リアルタイムCG, VJ, XR LIVE</p>
+          <p className="mt-3 text-white">主にUnityを触ってます。</p>
+          <p className="text-white">興味：リアルタイムCG, VJ, ライブ演出</p>
           <OneWord />
 
           <div className="flex space-x-6 justify-center mt-8">
@@ -30,10 +30,6 @@ function About() {
           </div>
         </div>
       </div>
-
-      {/* <p className="m-auto text-white text-center mt-10">- Contact -</p>
-      <p className="m-auto text-white text-center">お気軽にTwitterでDMしてください！</p> */}
-
     </div>
   );
 }

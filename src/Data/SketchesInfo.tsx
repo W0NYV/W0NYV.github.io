@@ -11,16 +11,50 @@ type WorksInfo = {
 
 const SketchesInfoArr: WorksInfo[] = [
 
+  {title: "<n/a> vol.6", 
+  img: "https://pbs.twimg.com/media/GITOpOubUAAYTy0?format=jpg&name=large",
+  modalElement: 
+  <div>
+    <ModalTitle>{'<'}n/a{'>'} vol.6</ModalTitle>
+    <img className="m-auto w-5/6" src="https://pbs.twimg.com/media/GJJA4Z0aMAARZIV?format=jpg&name=4096x4096" alt="" /><br />
+    <img className="m-auto w-5/6" src="https://pbs.twimg.com/media/GJHYj6mawAAPhNN?format=jpg&name=large" alt="" /><br />
+    <div className="mx-8">
+      <p className="mt-3 text-white">VRChat上で行われたDJイベント「{'<'}n/a{'>'}」にVJとして出演</p>
+      <p className="mt-3 text-white">2024/03</p>
+      <ModalLinks links={[
+          {title: "<n/a> vol.6", url: "https://x.com/65R4pu47/status/1766764164415098994?s=20"},
+        ]} />
+    </div>
+    <br /><br />
+  </div>},
+
+  {title: "RAISE vol.4", 
+  img: "https://gyazo.com/fec40f85bdfb8a1ee813353469275e28/max_size/1000",
+  modalElement: 
+  <div>
+    <ModalTitle>RAISE vol.4</ModalTitle>
+    <img className="m-auto w-5/6" src="https://pbs.twimg.com/media/GF-Ue8TakAAQbRn?format=jpg&name=4096x4096" alt="" /><br />
+    <img className="m-auto w-5/6" src="https://pbs.twimg.com/media/GF5MkHlawAA7gMX?format=jpg&name=4096x4096" alt="" /><br />
+    <div className="mx-8">
+      <p className="mt-3 text-white">VRChat上で行われたDJイベント「RAISE vol.4」にVJとして出演</p>
+      <p className="mt-3 text-white">2024/02</p>
+      <ModalLinks links={[
+          {title: "RAISE vol.4", url: "https://twitter.com/Ende_VR/status/1752971223565512726?s=20"},
+        ]} />
+    </div>
+    <br /><br />
+  </div>},
+
   {title: "SyntheticSense vol.1", 
-  img: "./images/syntheticsense-vol1/SyntheticSense001.webp",
+  img: "https://sugared-pigment-d10.notion.site/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2Fa6707f25-2443-44b6-81d5-cbe0980c64fe%2Fss_1.png?table=block&id=99c02aec-541f-4358-a019-ae774878f568&spaceId=e363943f-a317-4488-b1c7-f77210495807&width=2000&userId=&cache=v2",
   modalElement: 
   <div>
     <ModalTitle>SyntheticSense vol.1</ModalTitle>
-    <img className="m-auto w-5/6" src="./images/syntheticsense-vol1/SyntheticSense001.webp" alt="" />
-    <img className="m-auto w-5/6" src="./images/syntheticsense-vol1/SyntheticSense002.webp" alt="" />
-    <img className="m-auto w-5/6" src="./images/syntheticsense-vol1/SyntheticSense003.webp" alt="" />
+    <img className="m-auto w-5/6" src="./images/syntheticsense-vol1/SyntheticSense001.webp" alt="" /><br />
+    <img className="m-auto w-5/6" src="./images/syntheticsense-vol1/SyntheticSense002.webp" alt="" /><br />
+    <img className="m-auto w-5/6" src="./images/syntheticsense-vol1/SyntheticSense003.webp" alt="" /><br />
     <div className="mx-8">
-      <p className="mt-3 text-white">九州に旅行に行ったので、VJに使った。</p>
+      <p className="mt-3 text-white">VRChat上で行われたDJイベント「SyntheticSense」にVJとして出演</p>
       <p className="mt-3 text-white">Tool: TouchDesigner, Blender</p>
       <p className="mt-3 text-white">2023</p>
       <ModalLinks links={[
