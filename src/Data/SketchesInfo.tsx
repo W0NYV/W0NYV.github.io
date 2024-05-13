@@ -11,6 +11,57 @@ type WorksInfo = {
 
 const SketchesInfoArr: WorksInfo[] = [
 
+  {title: "MAZ VR.02", 
+  img: "https://pbs.twimg.com/media/GLwude2aUAAutbu?format=jpg&name=900x900",
+  modalElement: 
+  <div>
+    <ModalTitle>MAZ VR.02</ModalTitle>
+    <img className="m-auto w-5/6" src="https://pbs.twimg.com/media/GMvXq5Jb0AA7XfW?format=jpg&name=large" alt="" /><br />
+    <img className="m-auto w-5/6" src="https://pbs.twimg.com/media/GMvTUOKboAAOqvd?format=jpg&name=large" alt="" /><br />
+    <div className="mx-8">
+      <p className="mt-3 text-white">VRChat上で行われたDJイベント「MAZ VR.02」にVJとして出演</p>
+      <p className="mt-3 text-white">2024/05</p>
+      <ModalLinks links={[
+          {title: "MAZ VR.02", url: "https://x.com/musik_action_z/status/1782351596153922003"},
+        ]} />
+    </div>
+    <br /><br />
+  </div>},
+
+  {title: "SENSE//SENSE", 
+  img: "https://pbs.twimg.com/media/GKaZ6gBaMAE8dqi?format=png&name=small",
+  modalElement: 
+  <div>
+    <ModalTitle>SENSE//SENSE</ModalTitle>
+    <img className="m-auto w-5/6" src="https://pbs.twimg.com/media/GLnd4JJaYAA2Rug?format=jpg&name=large" alt="" /><br />
+    <img className="m-auto w-5/6" src="https://pbs.twimg.com/media/GLnesm2bsAA_OX6?format=jpg&name=large" alt="" /><br />
+    <div className="mx-8">
+      <p className="mt-3 text-white">VRChat上で行われたDJイベント「SENSE//SENSE」にVJとして出演</p>
+      <p className="mt-3 text-white">2024/04</p>
+      <ModalLinks links={[
+          {title: "SENSE//SENSE", url: "https://x.com/hb_music_game/status/1776444724376690900"},
+        ]} />
+    </div>
+    <br /><br />
+  </div>},
+
+  {title: "KÝUUB - TYPESQUARED", 
+  img: "https://pbs.twimg.com/media/GK70FYrXkAAnV-y?format=jpg&name=4096x4096",
+  modalElement: 
+  <div>
+    <ModalTitle>KÝUUB - TYPESQUARED</ModalTitle>
+    <img className="m-auto h-5/6" src="https://pbs.twimg.com/media/GLisFtoaEAA4KWd?format=jpg&name=small" alt="" /><br />
+    <div className="mx-8">
+      <p className="mt-3 text-white">VRChat上で行われたDJイベント「KÝUUB - TYPESQUARED」にVJとして出演</p>
+      <p className="mt-3 text-white">2024/04</p>
+      <ModalLinks links={[
+          {title: "KÝUUB - TYPESQUARED", url: "https://x.com/KesiraeVR/status/1778635078559535601"},
+          {title: "クリップ", url: "https://twitter.com/i/status/1782355825660715343"}
+        ]} />
+    </div>
+    <br /><br />
+  </div>},
+
   {title: "<n/a> vol.6", 
   img: "https://pbs.twimg.com/media/GITOpOubUAAYTy0?format=jpg&name=large",
   modalElement: 

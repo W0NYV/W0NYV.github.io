@@ -30,11 +30,27 @@ const WorksInfoArr: WorksInfo[] = [
     <br /><br />
   </div>},
 
+{title: "𝗰𝘃𝗲𝗹 × W0NYV - SENSE//SENSE", 
+img: "https://gyazo.com/dafd9eac3de4d43546a6d6760d7f3bdb/max_size/1000",
+modalElement: 
+<div>
+  <ModalTitle>𝗰𝘃𝗲𝗹 × W0NYV - SENSE//SENSE</ModalTitle>
+  <YouTubeEmbed id="OwoLSMbWCTE" />
+  <div className="mx-8">
+    <p className="mt-3 text-white">「SENSE//SENSE」で使用、開発したVJ tool</p>
+    <ModalLinks links={[
+        {title: "𝗰𝘃𝗲𝗹", url: "https://twitter.com/Cvelz"},
+      ]} />
+  </div>
+  <br /><br />
+</div>},
+
   {title: "3G0D34TH", 
   img: "https://gyazo.com/35d88feee2d3084fa4f305892667d019/max_size/1000",
   modalElement: 
   <div>
     <ModalTitle>3G0D34TH</ModalTitle>
+    <YouTubeEmbed id="Nh5IezxI5zo" />
     <img className="m-auto w-5/6" src="https://gyazo.com/8a2f22ff7ea8ed90fdc899d6329bbdee/max_size/1000" alt="3G0D34TH - 1" /><br />
     <img className="m-auto w-5/6" src="https://gyazo.com/791eadd95b9db0963b81952053ffb11c/max_size/1000" alt="3G0D34TH - 2" /><br />
     <img className="m-auto w-5/6" src="https://gyazo.com/26c854f8578cfb044cd911fe024f8c3f/max_size/1000" alt="3G0D34TH - 3" /><br />

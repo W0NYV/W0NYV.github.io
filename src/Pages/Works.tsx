@@ -38,7 +38,7 @@ function Works() {
       {/* <p className="m-auto text-white text-center mt-10">しっかりめに開発したものたちです。</p> */}
 
       <div className="mt-10 overflow-auto h-80v">
-        <div className="max-w-7xl mx-auto grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 justify-items-center gap-2 lg:gap-20">
+        <div className="max-w-7xl mx-auto grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 justify-items-center gap-2 lg:gap-10">
         {/* <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 grid-flow-row gap-8 lg:gap-2"> */}
           {gridElements()}
         </div>

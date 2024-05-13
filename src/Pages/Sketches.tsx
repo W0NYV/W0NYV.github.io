@@ -35,7 +35,7 @@ function Sketches() {
       {/* <p className="m-auto text-white text-center mt-10">ゆるめに開発、制作したものたちです。</p> */}
 
       <div className="mt-10 overflow-auto h-80v">
-        <div className="max-w-7xl mx-auto grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 justify-items-center gap-2 lg:gap-20">
+        <div className="max-w-7xl mx-auto grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 justify-items-center gap-2 lg:gap-10">
           {gridElements()}
         </div>
       </div>
